@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`scoreboard renders 1`] = `
+<div>
+  <div
+    class="scoreboard"
+  >
+    <div
+      class="current-score-div"
+    >
+      <p>
+        Current Score
+      </p>
+      <p />
+    </div>
+    <div
+      class="best-score-div"
+    >
+      <p>
+        Best Score
+      </p>
+      <p />
+    </div>
+  </div>
+</div>
+`;
