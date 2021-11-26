@@ -5,16 +5,24 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <div>
-        <h1>
+      <div
+        class="header"
+      >
+        <h1
+          class="title"
+        >
           Memory Card
         </h1>
       </div>
     </div>
   </body>,
   "container": <div>
-    <div>
-      <h1>
+    <div
+      class="header"
+    >
+      <h1
+        class="title"
+      >
         Memory Card
       </h1>
     </div>
