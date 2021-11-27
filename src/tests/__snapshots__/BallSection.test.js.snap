@@ -1,102 +1,64 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders ball section 1`] = `
-Object {
-  "asFragment": [Function],
-  "baseElement": <body>
+exports[`re-renders ball divs 1`] = `
+<div>
+  <section
+    class="ball-section"
+  >
     <div>
-      <section
-        class="ball-section"
-      >
-        <div>
-          Football
-        </div>
-        <div>
-          Cricket Ball
-        </div>
-        <div>
-          Rugby
-        </div>
-        <div>
-          Volley Ball
-        </div>
-        <div>
-          Ping Pong Ball
-        </div>
-      </section>
+      Beachball
     </div>
-  </body>,
-  "container": <div>
-    <section
-      class="ball-section"
-    >
-      <div>
-        Football
-      </div>
-      <div>
-        Cricket Ball
-      </div>
-      <div>
-        Rugby
-      </div>
-      <div>
-        Volley Ball
-      </div>
-      <div>
-        Ping Pong Ball
-      </div>
-    </section>
-  </div>,
-  "debug": [Function],
-  "findAllByAltText": [Function],
-  "findAllByDisplayValue": [Function],
-  "findAllByLabelText": [Function],
-  "findAllByPlaceholderText": [Function],
-  "findAllByRole": [Function],
-  "findAllByTestId": [Function],
-  "findAllByText": [Function],
-  "findAllByTitle": [Function],
-  "findByAltText": [Function],
-  "findByDisplayValue": [Function],
-  "findByLabelText": [Function],
-  "findByPlaceholderText": [Function],
-  "findByRole": [Function],
-  "findByTestId": [Function],
-  "findByText": [Function],
-  "findByTitle": [Function],
-  "getAllByAltText": [Function],
-  "getAllByDisplayValue": [Function],
-  "getAllByLabelText": [Function],
-  "getAllByPlaceholderText": [Function],
-  "getAllByRole": [Function],
-  "getAllByTestId": [Function],
-  "getAllByText": [Function],
-  "getAllByTitle": [Function],
-  "getByAltText": [Function],
-  "getByDisplayValue": [Function],
-  "getByLabelText": [Function],
-  "getByPlaceholderText": [Function],
-  "getByRole": [Function],
-  "getByTestId": [Function],
-  "getByText": [Function],
-  "getByTitle": [Function],
-  "queryAllByAltText": [Function],
-  "queryAllByDisplayValue": [Function],
-  "queryAllByLabelText": [Function],
-  "queryAllByPlaceholderText": [Function],
-  "queryAllByRole": [Function],
-  "queryAllByTestId": [Function],
-  "queryAllByText": [Function],
-  "queryAllByTitle": [Function],
-  "queryByAltText": [Function],
-  "queryByDisplayValue": [Function],
-  "queryByLabelText": [Function],
-  "queryByPlaceholderText": [Function],
-  "queryByRole": [Function],
-  "queryByTestId": [Function],
-  "queryByText": [Function],
-  "queryByTitle": [Function],
-  "rerender": [Function],
-  "unmount": [Function],
-}
+    <div>
+      Ping Pong Ball
+    </div>
+    <div>
+      Football
+    </div>
+    <div>
+      Curling Ball
+    </div>
+  </section>
+</div>
+`;
+
+exports[`re-renders ball divs 2`] = `
+<div>
+  <section
+    class="ball-section"
+  >
+    <div>
+      Cricket Ball
+    </div>
+    <div>
+      Tennis Ball
+    </div>
+    <div>
+      Bowling Ball
+    </div>
+    <div>
+      Basketball
+    </div>
+  </section>
+</div>
+`;
+
+exports[`renders ball section 1`] = `
+<div>
+  <section
+    class="ball-section"
+  >
+    <div>
+      Basketball
+    </div>
+    <div>
+      American Football
+    </div>
+    <div>
+      Beachball
+    </div>
+    <div>
+      Ping Pong Ball
+    </div>
+  </section>
+</div>
 `;
