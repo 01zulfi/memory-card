@@ -1,11 +1,19 @@
-import React from "react";
-import { ballsCopy as balls } from "../Balls";
+import React, { useState } from "react";
+import { balls } from "../Balls";
 
 const BallSection = () => {
+  const [fourBalls, setFourBalls] = useState(balls.getFourRandom());
+
+  const clickHandler = () => {
+    setFourBalls(balls.getFourRandom());
+  };
+
   return (
     <section className="ball-section">
-      {balls.map((ball) => (
-        <div key={ball.id}>{ball.name}</div>
+      {fourBalls.map((ball) => (
+        <div onClick={clickHandler} key={ball.id}>
+          {ball.name}
+        </div>
       ))}
     </section>
   );
