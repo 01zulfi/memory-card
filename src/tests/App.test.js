@@ -23,3 +23,9 @@ test("scoreboard renders", () => {
   const scoreboard = container.querySelector(".scoreboard");
   expect(scoreboard).toBeInTheDocument();
 });
+
+test("ball section renders", () => {
+  const { container } = render(<App />);
+  const ballSection = container.querySelector(".ball-section");
+  expect(ballSection).toBeInTheDocument();
+});
