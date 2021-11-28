@@ -5,17 +5,29 @@ exports[`re-renders ball divs 1`] = `
   <section
     class="ball-section"
   >
-    <div>
+    <div
+      class="ball-div"
+      data-id="1074207417582"
+    >
+      Rugby Ball
+    </div>
+    <div
+      class="ball-div"
+      data-id="930318065358"
+    >
+      Baseball
+    </div>
+    <div
+      class="ball-div"
+      data-id="1243649354047"
+    >
       Beachball
     </div>
-    <div>
-      Ping Pong Ball
-    </div>
-    <div>
-      Football
-    </div>
-    <div>
-      Curling Ball
+    <div
+      class="ball-div"
+      data-id="241277678684"
+    >
+      American Football
     </div>
   </section>
 </div>
@@ -26,17 +38,30 @@ exports[`re-renders ball divs 2`] = `
   <section
     class="ball-section"
   >
-    <div>
-      Cricket Ball
+    <div
+      class="ball-div"
+      data-id="1498700061257"
+    >
+      Football
     </div>
-    <div>
-      Tennis Ball
+    <div
+      class="ball-div"
+      data-id="1074207417582"
+      style="border: 2px solid green;"
+    >
+      Rugby Ball
     </div>
-    <div>
-      Bowling Ball
+    <div
+      class="ball-div"
+      data-id="710272042201"
+    >
+      Volleyball
     </div>
-    <div>
-      Basketball
+    <div
+      class="ball-div"
+      data-id="202884755319"
+    >
+      Billiard Ball
     </div>
   </section>
 </div>
@@ -47,17 +72,29 @@ exports[`renders ball section 1`] = `
   <section
     class="ball-section"
   >
-    <div>
+    <div
+      class="ball-div"
+      data-id="930041752076"
+    >
+      Cricket Ball
+    </div>
+    <div
+      class="ball-div"
+      data-id="878299898234"
+    >
+      Squash Ball
+    </div>
+    <div
+      class="ball-div"
+      data-id="202884755319"
+    >
+      Billiard Ball
+    </div>
+    <div
+      class="ball-div"
+      data-id="122444100839"
+    >
       Basketball
-    </div>
-    <div>
-      American Football
-    </div>
-    <div>
-      Beachball
-    </div>
-    <div>
-      Ping Pong Ball
     </div>
   </section>
 </div>

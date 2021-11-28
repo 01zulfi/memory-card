@@ -34,6 +34,34 @@ exports[`App renders 1`] = `
         <p />
       </div>
     </div>
+    <section
+      class="ball-section"
+    >
+      <div
+        class="ball-div"
+        data-id="1114007277401"
+      >
+        Football
+      </div>
+      <div
+        class="ball-div"
+        data-id="1236213125317"
+      >
+        Squash Ball
+      </div>
+      <div
+        class="ball-div"
+        data-id="111269804956"
+      >
+        Golf Ball
+      </div>
+      <div
+        class="ball-div"
+        data-id="1306394998416"
+      >
+        Basketball
+      </div>
+    </section>
   </div>
 </div>
 `;
