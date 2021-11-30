@@ -1,3 +1,19 @@
+import americanFootballImg from "./images/american-football.png";
+import baseballImg from "./images/baseball.png";
+import basketballImg from "./images/basketball.png";
+import beachballImg from "./images/beachball.png";
+import billiardBallImg from "./images/billiard-ball.png";
+import bowlingBallImg from "./images/bowling-ball.png";
+import cricketBallImg from "./images/cricket-ball.png";
+import curlingBallImg from "./images/curling-ball.png";
+import footballImg from "./images/football.png";
+import golfBallImg from "./images/golf-ball.png";
+import pingpongBallImg from "./images/pingpong-ball.png";
+import rugbyBallImg from "./images/rugby-ball.png";
+import squashBallImg from "./images/squash-ball.png";
+import tennisBallImg from "./images/tennis-ball.png";
+import volleyballImg from "./images/volleyball.png";
+
 const uniqueId = () =>
   Math.floor(Math.random() * Date.now() + Math.random() * 1000);
 
@@ -9,11 +25,14 @@ const checkForDuplicate = (arr) => {
   return false;
 };
 
-const Ball = (name) => {
+const Ball = (name, imgSrc) => {
   let clicked = false;
   return {
     get name() {
       return name;
+    },
+    get imgSrc() {
+      return imgSrc;
     },
     id: uniqueId(),
     get clicked() {
@@ -86,21 +105,21 @@ const BallManager = () => {
 const balls = BallManager();
 
 balls.add(
-  Ball("American Football"),
-  Ball("Baseball"),
-  Ball("Basketball"),
-  Ball("Beachball"),
-  Ball("Bowling Ball"),
-  Ball("Cricket Ball"),
-  Ball("Curling Ball"),
-  Ball("Football"),
-  Ball("Ping Pong Ball"),
-  Ball("Rugby Ball"),
-  Ball("Squash Ball"),
-  Ball("Tennis Ball"),
-  Ball("Volleyball"),
-  Ball("Golf Ball"),
-  Ball("Billiard Ball")
+  Ball("American Football", americanFootballImg),
+  Ball("Baseball", baseballImg),
+  Ball("Basketball", basketballImg),
+  Ball("Beachball", beachballImg),
+  Ball("Billiard Ball", billiardBallImg),
+  Ball("Bowling Ball", bowlingBallImg),
+  Ball("Cricket Ball", cricketBallImg),
+  Ball("Curling Ball", curlingBallImg),
+  Ball("Football", footballImg),
+  Ball("Golf Ball", golfBallImg),
+  Ball("Ping Pong Ball", pingpongBallImg),
+  Ball("Rugby Ball", rugbyBallImg),
+  Ball("Squash Ball", squashBallImg),
+  Ball("Tennis Ball", tennisBallImg),
+  Ball("Volleyball", volleyballImg)
 );
 
 export { balls };

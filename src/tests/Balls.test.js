@@ -33,7 +33,7 @@ test("gets atleast one not clicked ball", () => {
   const flag = fourBalls.every((ball) => ball.clicked);
   const name = balls.find(allIDs[14]).name;
 
-  expect(name).toMatch(/Billiard Ball/);
+  expect(name).toMatch(/Volleyball/);
   expect(flag).toBe(false);
 });
 
