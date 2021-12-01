@@ -30,11 +30,16 @@ function App() {
     };
   };
 
+  const WinnerDiv = () => {
+    return <div>Congratulations, you beat the game!</div>;
+  };
+
   return (
     <div className="App">
       <Header />
       <Scoreboard currentScore={score.current} bestScore={score.best} />
       <BallSection score={scoreManager()} />
+      {score.current === 15 && WinnerDiv()}
     </div>
   );
 }
