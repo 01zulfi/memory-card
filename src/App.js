@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Header from "./components/Header";
 import Scoreboard from "./components/Scoreboard";
 import BallSection from "./components/BallSection";
+import "./styles/App.css";
 
 function App() {
   const [score, setScore] = useState({ current: 0, best: 0 });
