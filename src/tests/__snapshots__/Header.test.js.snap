@@ -11,8 +11,11 @@ Object {
         <h1
           class="title"
         >
-          Memory Card
+          Balls: A Memory Card Game
         </h1>
+        <p>
+          Click a ball to get a point (but don't click a ball twice!)
+        </p>
       </div>
     </div>
   </body>,
@@ -23,8 +26,11 @@ Object {
       <h1
         class="title"
       >
-        Memory Card
+        Balls: A Memory Card Game
       </h1>
+      <p>
+        Click a ball to get a point (but don't click a ball twice!)
+      </p>
     </div>
   </div>,
   "debug": [Function],
