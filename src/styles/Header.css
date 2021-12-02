@@ -1,27 +1,27 @@
 div.header {
-    display: flex;
-    width: 95%;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background:rgb(171, 237, 198, 0.6);
-    border: 1px solid #4C4B63;
-    margin-top: 10px;
-    border-radius: 10px;
-    padding: 15px;
+  display: flex;
+  width: 95%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: rgb(171, 237, 198, 0.6);
+  border: 1px solid #4c4b63;
+  margin-top: 10px;
+  border-radius: 10px;
 }
 
 div.header .title {
-    padding: 0;
-    margin: 0;
-    color: #4C4B63
+  padding: 0;
+  margin: 0;
+  color: #4c4b63;
+  text-align: center;
 }
 
 div.header p {
-    background: rgb(171, 237, 198);
-    padding: 5px;
-    border-radius: 4px;
-    margin: 5px;
-    width: 55%;
-    text-align: center;
+  background: rgb(171, 237, 198);
+  padding: 5px;
+  border-radius: 4px;
+  margin: 5px;
+  width: 55%;
+  text-align: center;
 }
