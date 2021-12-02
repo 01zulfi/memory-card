@@ -23,6 +23,11 @@ div.ball-div {
   align-items: center;
 }
 
+div.ball-div:hover {
+  background-color: rgb(182, 214, 204, 0.3);
+  cursor: pointer;
+}
+
 div.ball-div.clicked-twice {
   border: 2px solid red;
   background-color: rgb(182, 214, 204, 0.1);
@@ -42,4 +47,15 @@ div.ball-div p {
   font-size: 1.1rem;
   font-weight: 600;
   background-color: rgb(182, 214, 204, 0.8);
+}
+
+@media (min-width: 768px) {
+  section.ball-section {
+    flex-wrap: nowrap;
+  }
+
+  div.ball-div {
+    width: 20%;
+    padding: 15px;
+  }
 }

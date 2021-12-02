@@ -18,10 +18,16 @@ p {
 
 p.score-heading {
   color: #1b2021;
-  font-size: 15px;
+  font-size: 19px;
 }
 
 p.score-display {
   font-weight: bolder;
   font-size: 25px;
+}
+
+@media (min-width: 768px) {
+  p.score-display {
+    font-size: 30px;
+  }
 }

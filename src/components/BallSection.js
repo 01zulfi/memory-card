@@ -17,7 +17,7 @@ const BallSection = ({ score }) => {
 
     setTimeout(() => {
       setFourBalls(balls.getFourRandom());
-    }, 2000);
+    }, 1500);
   };
 
   const setBallClicked = (id, event) => {
