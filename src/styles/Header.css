@@ -8,6 +8,7 @@ div.header {
   border: 1px solid #4c4b63;
   margin-top: 10px;
   border-radius: 10px;
+  padding: 5px;
 }
 
 div.header .title {
@@ -15,13 +16,15 @@ div.header .title {
   margin: 0;
   color: #4c4b63;
   text-align: center;
+  font-size: 30px;
+  margin-bottom: 5px;
 }
 
 div.header p {
   background: rgb(171, 237, 198);
   padding: 5px;
   border-radius: 4px;
-  margin: 5px;
-  width: 55%;
+  font-size: 18px;
+  width: 85%;
   text-align: center;
 }
