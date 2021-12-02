@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/memory-card/static/css/main.f78734f2.chunk.css",
+    "main.js": "/memory-card/static/js/main.28461906.chunk.js",
+    "main.js.map": "/memory-card/static/js/main.28461906.chunk.js.map",
+    "runtime-main.js": "/memory-card/static/js/runtime-main.06abf29f.js",
+    "runtime-main.js.map": "/memory-card/static/js/runtime-main.06abf29f.js.map",
+    "static/js/2.e1c601fa.chunk.js": "/memory-card/static/js/2.e1c601fa.chunk.js",
+    "static/js/2.e1c601fa.chunk.js.map": "/memory-card/static/js/2.e1c601fa.chunk.js.map",
+    "index.html": "/memory-card/index.html",
+    "static/css/main.f78734f2.chunk.css.map": "/memory-card/static/css/main.f78734f2.chunk.css.map",
+    "static/js/2.e1c601fa.chunk.js.LICENSE.txt": "/memory-card/static/js/2.e1c601fa.chunk.js.LICENSE.txt",
+    "static/media/american-football.aa09c511.png": "/memory-card/static/media/american-football.aa09c511.png",
+    "static/media/baseball.b9f60641.png": "/memory-card/static/media/baseball.b9f60641.png",
+    "static/media/basketball.002a49c2.png": "/memory-card/static/media/basketball.002a49c2.png",
+    "static/media/beachball.4455cbf9.png": "/memory-card/static/media/beachball.4455cbf9.png",
+    "static/media/billiard-ball.e04e57ee.png": "/memory-card/static/media/billiard-ball.e04e57ee.png",
+    "static/media/bowling-ball.179af5b6.png": "/memory-card/static/media/bowling-ball.179af5b6.png",
+    "static/media/cricket-ball.1cb9f702.png": "/memory-card/static/media/cricket-ball.1cb9f702.png",
+    "static/media/curling-ball.b146fc01.png": "/memory-card/static/media/curling-ball.b146fc01.png",
+    "static/media/football.a60b75ca.png": "/memory-card/static/media/football.a60b75ca.png",
+    "static/media/golf-ball.e5cd5418.png": "/memory-card/static/media/golf-ball.e5cd5418.png",
+    "static/media/pingpong-ball.70528a1c.png": "/memory-card/static/media/pingpong-ball.70528a1c.png",
+    "static/media/rugby-ball.aca5eb5a.png": "/memory-card/static/media/rugby-ball.aca5eb5a.png",
+    "static/media/squash-ball.e8ac0918.png": "/memory-card/static/media/squash-ball.e8ac0918.png",
+    "static/media/tennis-ball.9b87805b.png": "/memory-card/static/media/tennis-ball.9b87805b.png",
+    "static/media/volleyball.d4853dee.png": "/memory-card/static/media/volleyball.d4853dee.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.06abf29f.js",
+    "static/js/2.e1c601fa.chunk.js",
+    "static/css/main.f78734f2.chunk.css",
+    "static/js/main.28461906.chunk.js"
+  ]
+}
