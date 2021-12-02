@@ -9,6 +9,10 @@ section.ball-section {
   gap: 20px;
 }
 
+section.ball-section.clicked-twice {
+  pointer-events: none;
+}
+
 div.ball-div {
   width: 45%;
   padding: 5px;
@@ -17,6 +21,11 @@ div.ball-div {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+div.ball-div.clicked-twice {
+  border: 2px solid red;
+  background-color: rgb(182, 214, 204, 0.1);
 }
 
 div.ball-div img {

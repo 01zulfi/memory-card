@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { balls } from "../Balls";
 import "../styles/BallSection.css";
 
@@ -6,18 +6,18 @@ const BallSection = ({ score }) => {
   const [fourBalls, setFourBalls] = useState(balls.getFourRandom());
 
   const toggleFailureBorder = (element) => {
-    element.style.border = "2px solid red";
+    element.classList.add("clicked-twice");
   };
 
   const clickedTwice = (event) => {
     score.failure();
-    toggleFailureBorder(event.target);
+    toggleFailureBorder(event.currentTarget);
     balls.setAllClickedFalse();
-    document.body.style.pointerEvents = "none";
+    event.currentTarget.parentNode.classList.add("clicked-twice");
 
     setTimeout(() => {
       setFourBalls(balls.getFourRandom());
-    }, 1000);
+    }, 2000);
   };
 
   const setBallClicked = (id, event) => {
@@ -37,6 +37,13 @@ const BallSection = ({ score }) => {
     const id = Number(event.currentTarget.getAttribute("data-id"));
     setBallClicked(id, event);
   };
+
+  useEffect(() => {
+    const clickedTwiceElements = document.querySelectorAll(".clicked-twice");
+    [...clickedTwiceElements].forEach((el) =>
+      el.classList.remove("clicked-twice")
+    );
+  }, [fourBalls]);
 
   return (
     <section className="ball-section">
