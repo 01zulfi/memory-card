@@ -32,7 +32,9 @@ function App() {
   };
 
   const WinnerDiv = () => {
-    return <div>Congratulations, you beat the game!</div>;
+    return (
+      <div className="winner-div">Congratulations, you beat the game!</div>
+    );
   };
 
   return (
