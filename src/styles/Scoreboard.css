@@ -4,7 +4,7 @@ div.scoreboard {
   justify-content: space-around;
   width: 100%;
   margin-top: 10px;
-  background: rgb(171, 237, 198, 0.7);
+  background-color: rgb(182, 214, 204, 0.5);
 }
 
 div.scoreboard > div + div {
