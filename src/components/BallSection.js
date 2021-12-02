@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { balls } from "../Balls";
+import "../styles/BallSection.css";
 
 const BallSection = ({ score }) => {
   const [fourBalls, setFourBalls] = useState(balls.getFourRandom());
@@ -37,10 +38,6 @@ const BallSection = ({ score }) => {
     setBallClicked(id, event);
   };
 
-  const style = {
-    width: "30px",
-  };
-
   return (
     <section className="ball-section">
       {fourBalls.map((ball) => (
@@ -51,8 +48,8 @@ const BallSection = ({ score }) => {
           onClick={clickHandler}
           key={ball.id}
         >
-          <img style={style} alt={ball.name} src={ball.imgSrc} />
-          {ball.name}
+          <img alt={ball.name} src={ball.imgSrc} />
+          <p>{ball.name}</p>
         </div>
       ))}
     </section>

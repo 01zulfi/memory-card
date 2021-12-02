@@ -1,0 +1,36 @@
+section.ball-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 15px;
+  gap: 20px;
+}
+
+div.ball-div {
+  width: 45%;
+  padding: 5px;
+  background-color: rgb(182, 214, 204, 0.5);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div.ball-div img {
+  aspect-ratio: 1;
+  width: 75%;
+}
+
+div.ball-div p {
+  width: 100%;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  background-color: rgb(182, 214, 204, 0.8);
+}
